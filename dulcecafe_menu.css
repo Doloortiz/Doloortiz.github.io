@@ -26,7 +26,7 @@ p.corazon {
 }
 .menu {
     background-color: burlywood;
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 60px;
@@ -74,6 +74,6 @@ i.fa-solid fa-mug-hot {
 /*************************RESPONSIVE DESIGN************************/
 @media (max-width: 500px) {
     .menu {
-            width: 40%;
+            width: 70%;
         }
     }
