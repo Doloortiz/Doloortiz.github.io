@@ -1,0 +1,81 @@
+h1, h2, p {
+    text-align: center;
+}
+body {
+    background-image:url(https://img.freepik.com/vector-premium/fondo-cafe-dibujos-mano-granos-cafe-beige-claro_638892-1669.jpg);
+/*url(https://i.pinimg.com/564x/0f/b0/62/0fb062b59dbb44baa7a3bb10b6e078ed.jpg);*/
+/*url(https://media.istockphoto.com/id/1221212982/es/vector/grano-de-caf%C3%A9-dibujado-con-un-fondo-sin-costuras-patr%C3%B3n-con-ca%C3%ADda-de-granos-de-caf%C3%A9-tel%C3%B3n-de.jpg?s=612x612&w=0&k=20&c=aqzl390gkw3X3tdzMK4NTW_aokHsmnUf1JzpAf4Deq0=);*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+h2{
+    font-size:30px;
+}
+hr {
+    height: 2px;
+    background-color: rgb(143, 50, 50);
+    border-color: rgb(143, 50, 50);
+}
+p.corazon {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color:rgb(143, 50, 50);
+}
+.menu {
+    background-color: burlywood;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+@media (min-width:650px)
+    {
+        .menu {
+            width: 30%;
+        }
+    }
+
+.item p {
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+.linea {
+    margin-top: 25px;
+}
+.sabor,.postre,.promo {
+    text-align: left;
+    width: 75%;
+}
+.precio {
+    text-align: right;
+    width: 25%;
+}
+
+/*FOOTER*/
+p.amor {
+    text-align: center;
+}
+footer {
+    font-size: 15px;
+}
+a {
+    color: rgb(67, 61, 61);
+}
+a:visited {
+    color: rgb(143, 50, 50);
+}
+a:hover {
+    color:rgb(67, 61, 61);
+}
+i.fa-solid fa-mug-hot {
+    margin: auto;
+}
