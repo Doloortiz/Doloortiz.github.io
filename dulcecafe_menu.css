@@ -34,14 +34,6 @@ p.corazon {
     padding-top: 15px;
     padding-bottom: 20px;
 }
-
-@media (min-width:650px)
-    {
-        .menu {
-            width: 30%;
-        }
-    }
-
 .item p {
     display: inline-block;
     margin-top: 6px;
@@ -79,3 +71,9 @@ a:hover {
 i.fa-solid fa-mug-hot {
     margin: auto;
 }
+/*************************RESPONSIVE DESIGN************************/
+@media (max-width: 500px) {
+    .menu {
+            width: 40%;
+        }
+    }
